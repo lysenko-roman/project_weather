@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 600px;
+    box-sizing: border-box;
+    background: url("https://i1.rozetka.ua/goods/8639686/60924099_images_8639686319.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+div {
+    max-width: 100%;
+    margin: 50px auto;
+
+
+}
+
+h2 {
+    color: darkslateblue;
+    align-items: center;
+    font-size: 3em;
+    margin: 15px;
+}
+
+
+p {
+    color: darkslateblue;
+    font-size: 1.5em;
+    margin: 5px 15px;
+    padding: 4px;
+}
+
+form {
+    margin-left: 20px;
+
+}
+
+form input, button {
+    margin: 5px;
+
+}
+input {
+    font-size: 14px;
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    background: lightseagreen;
+
+}
+
+button {
+    font-size: 14px;
+    background: lightseagreen;
+    width: 140px;
+    height: 60px;
+}
+input:hover {
+    border-radius: 20px;
+    color: darkblue;
+    background: lemonchiffon;
+}
+button:hover  {
+    color: dodgerblue;
+    background: lightblue;
+
+    border-radius: 20px;
+}
